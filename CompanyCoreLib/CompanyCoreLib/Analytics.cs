@@ -21,7 +21,7 @@ namespace CompanyCoreLib
 
         public List<DateTime> PopularMonths(List<DateTime> dates)
         {
-            var DateTimeWithCounterList = new List<Tuple<DateTime, int»();
+            var DateTimeWithCounterList = new List<Tuple<DateTime, int>>();
 
             int PreviousYear = DateTime.Now.Year - 1;
             foreach (DateTime IterDate in dates)
